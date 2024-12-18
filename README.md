@@ -1,52 +1,35 @@
 # SmartFarmingHackathon2024_BarnNavigation
 
-Simple overview of use/purpose.
+The Smart Farming Hackathon 2024 was presented by the Innovation Agency RLP. For 2 days we were part of a dynamic community of companies, start-ups and research institutions and experienced a lot. Our use case: Navigation of robots in a poultry house! We would like to share what we developed during the hackathon here :)
 
-## Description
+## Use-Case and Task
 
-An in-depth paragraph about your project and overview of use.
+Simplified navigation for a robot:
+- Concept development with subsequent implementation
+- Autonomous control in a chicken barn
+- without installations in the barn
+- simple recurring paths
+
+Development of an intelligent control system for an autonomous robot in an unknown environment in a poultry barn. The robot should autonomously and repeatedly follow a predefined route in the barn. The focus is on safe navigation in complex barns with enclosures, partition walls, manure removal systems and living animals
+
+More information: [Use_Case_Robotik.pdf](Use_Case_Robotik.pdf)
 
 ## Getting Started
 
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+### Docker
 
 ## Authors
 
-Contributors names and contact info
+We were a team of four members and one supervisor.
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Team Superviser: Jonas Boysen
 
-## Version History
+Team Members: 
+- Tim Lumpp
+- Johanna Vaske
+- Daniel Jiang
+- Simon Mielke
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
 
 ## License
 
@@ -54,9 +37,6 @@ This project is licensed under the [NAME HERE] License - see the LICENSE.md file
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+We would like to express our gratitude to the [Innovationsagentur Rheinland-Pfalz](https://innovationsagentur.rlp.de/) for organizing the hackathon. It was an incredible opportunity for us to participate and exchange innovative ideas.
+
+We would also like to extend our thanks to [Big Dutchman](https://www.bigdutchman.com/de/startseite/) for providing the use case. We found it to be extremely interesting. Through this experience we learned a lot and the implementation of the use case greatly enhanced our understanding of the subject.
