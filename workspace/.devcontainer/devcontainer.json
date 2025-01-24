@@ -20,7 +20,8 @@
         "--gpus=all"
     ],
     "containerEnv": {
-        "DISPLAY": "${localEnv:DISPLAY}", // Needed for GUI try ":0" for windows
+        "DISPLAY": "${localEnv:DISPLAY}", // for Linux
+        //"DISPLAY": ":0", // for windows
         "WAYLAND_DISPLAY": "${localEnv:WAYLAND_DISPLAY}",
         "XDG_RUNTIME_DIR": "${localEnv:XDG_RUNTIME_DIR}",
         "PULSE_SERVER": "${localEnv:PULSE_SERVER}",
@@ -48,7 +49,8 @@
         }
     },
     "mounts": [
-        "source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind,consistency=cached",
+        "source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind,consistency=cached", // for Linux
+        //"source=\\\\wsl.localhost\\Ubuntu\\mnt\\wslg,target=/tmp,type=bind,consistency=cached", // for Windows
         "source=/dev/dri,target=/dev/dri,type=bind,consistency=cached",
         "source=${localWorkspaceFolder}/../cache/humble/build,target=/workspaces/workspace/build,type=bind",
         "source=${localWorkspaceFolder}/../cache/humble/install,target=/workspaces/workspace/install,type=bind",
