@@ -496,14 +496,14 @@
           <geometry>
             <mesh>
               <!--<uri>model://static_shelf/meshes/static_shelf.dae</uri>-->
-              <uri>/workspaces/workspace/theck_shelf.dae</uri>
+              <uri>./theck_shelf.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/workspaces/workspace/theck_shelf.dae</uri>
+              <uri>./theck_shelf.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -532,14 +532,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/workspaces/workspace/theck_shelf.dae</uri>
+              <uri>./theck_shelf.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-             <uri>/workspaces/workspace/theck_shelf.dae</uri>
+             <uri>/./theck_shelf.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -582,7 +582,7 @@
             <pose>0 0 0 0 -0 0</pose>
             <geometry>
               <mesh>
-                <uri>/workspaces/workspace/chicken.stl</uri>
+                <uri>./chicken.stl</uri>
                 <scale>1 1 1</scale>
               </mesh>
             </geometry>
@@ -603,7 +603,7 @@
             <pose>0 0 0 0 -0 0</pose>
             <geometry>
               <mesh>
-                <uri>/workspaces/workspace/chicken.stl</uri>
+                <uri>./chicken.stl</uri>
                 <scale>1 1 1</scale>
               </mesh>
             </geometry>
@@ -685,7 +685,7 @@
             <pose>0 0 0 0 -0 0</pose>
             <geometry>
               <mesh>
-                <uri>/workspaces/workspace/chicken.stl</uri>
+                <uri>./chicken.stl</uri>
                 <scale>1 1 1</scale>
               </mesh>
             </geometry>
@@ -706,7 +706,7 @@
             <pose>0 0 0 0 -0 0</pose>
             <geometry>
               <mesh>
-                <uri>/workspaces/workspace/chicken.stl</uri>
+                <uri>./chicken.stl</uri>
                 <scale>1 1 1</scale>
               </mesh>
             </geometry>
@@ -788,7 +788,7 @@
             <pose>0 0 0 0 -0 0</pose>
             <geometry>
               <mesh>
-                <uri>/workspaces/workspace/chicken.stl</uri>
+                <uri>./chicken.stl</uri>
                 <scale>1 1 1</scale>
               </mesh>
             </geometry>
@@ -809,7 +809,7 @@
             <pose>0 0 0 0 -0 0</pose>
             <geometry>
               <mesh>
-                <uri>/workspaces/workspace/chicken.stl</uri>
+                <uri>./chicken.stl</uri>
                 <scale>1 1 1</scale>
               </mesh>
             </geometry>
@@ -891,7 +891,7 @@
             <pose>0 0 0 0 -0 0</pose>
             <geometry>
               <mesh>
-                <uri>/workspaces/workspace/chicken.stl</uri>
+                <uri>./chicken.stl</uri>
                 <scale>1 1 1</scale>
               </mesh>
             </geometry>
@@ -912,7 +912,7 @@
             <pose>0 0 0 0 -0 0</pose>
             <geometry>
               <mesh>
-                <uri>/workspaces/workspace/chicken.stl</uri>
+                <uri>./chicken.stl</uri>
                 <scale>1 1 1</scale>
               </mesh>
             </geometry>
@@ -994,7 +994,7 @@
             <pose>0 0 0 0 -0 0</pose>
             <geometry>
               <mesh>
-                <uri>/workspaces/workspace/chicken.stl</uri>
+                <uri>./chicken.stl</uri>
                 <scale>1 1 1</scale>
               </mesh>
             </geometry>
@@ -1015,7 +1015,7 @@
             <pose>0 0 0 0 -0 0</pose>
             <geometry>
               <mesh>
-                <uri>/workspaces/workspace/chicken.stl</uri>
+                <uri>./chicken.stl</uri>
                 <scale>1 1 1</scale>
               </mesh>
             </geometry>
@@ -1097,7 +1097,7 @@
             <pose>0 0 0 0 -0 0</pose>
             <geometry>
               <mesh>
-                <uri>/workspaces/workspace/chicken.stl</uri>
+                <uri>./chicken.stl</uri>
                 <scale>1 1 1</scale>
               </mesh>
             </geometry>
@@ -1118,7 +1118,7 @@
             <pose>0 0 0 0 -0 0</pose>
             <geometry>
               <mesh>
-                <uri>/workspaces/workspace/chicken.stl</uri>
+                <uri>./chicken.stl</uri>
                 <scale>1 1 1</scale>
               </mesh>
             </geometry>
@@ -1200,7 +1200,7 @@
             <pose>0 0 0 0 -0 0</pose>
             <geometry>
               <mesh>
-                <uri>/workspaces/workspace/chicken.stl</uri>
+                <uri>./chicken.stl</uri>
                 <scale>1 1 1</scale>
               </mesh>
             </geometry>
@@ -1221,7 +1221,7 @@
             <pose>0 0 0 0 -0 0</pose>
             <geometry>
               <mesh>
-                <uri>/workspaces/workspace/chicken.stl</uri>
+                <uri>./chicken.stl</uri>
                 <scale>1 1 1</scale>
               </mesh>
             </geometry>
@@ -1303,7 +1303,7 @@
             <pose>0 0 0 0 -0 0</pose>
             <geometry>
               <mesh>
-                <uri>/workspaces/workspace/chicken.stl</uri>
+                <uri>./chicken.stl</uri>
                 <scale>1 1 1</scale>
               </mesh>
             </geometry>
@@ -1324,7 +1324,7 @@
             <pose>0 0 0 0 -0 0</pose>
             <geometry>
               <mesh>
-                <uri>/workspaces/workspace/chicken.stl</uri>
+                <uri>./chicken.stl</uri>
                 <scale>1 1 1</scale>
               </mesh>
             </geometry>
