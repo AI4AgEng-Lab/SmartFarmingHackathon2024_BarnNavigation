@@ -17,6 +17,17 @@ More information: [Use_Case_Robotik.pdf](Use_Case_Robotik.pdf)
 ## Getting Started
 
 ### Docker
+First select whether you work on Windows or Linux by commenting out the corresponding lines in the devcontainer file. 
+Then build and open the devconatiner.
+Open a new terminal in the conatiner an run.
+```bash
+   colcon build
+```
+In another terminal in the container tun:
+```bash
+   ros2 launch barn_navigation barn.launch.py 
+```
+to start the simulation.
 
 ## Authors
 
