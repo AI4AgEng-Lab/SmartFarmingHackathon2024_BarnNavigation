@@ -1,0 +1,58 @@
+// Jonas Boysen 2023 
+// based on:
+// https://docs.ros.org/en/humble/How-To-Guides/Setup-ROS-2-with-VSCode-and-Docker-Container.html
+// &
+// https://github.com/athackst/vscode_ros2_workspace
+{
+    "name": "ROS 2 Development Container",
+    "privileged": true,
+    "remoteUser": "ros",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "runArgs": [
+        "--network=host",
+        "--cap-add=SYS_PTRACE",
+        "--security-opt=seccomp:unconfined",
+        "--security-opt=apparmor:unconfined",
+        "--ipc=host",
+        "--gpus=all"
+    ],
+    "containerEnv": {
+        "DISPLAY": "${localEnv:DISPLAY}", // Needed for GUI try ":0" for windows
+        "WAYLAND_DISPLAY": "${localEnv:WAYLAND_DISPLAY}",
+        "XDG_RUNTIME_DIR": "${localEnv:XDG_RUNTIME_DIR}",
+        "PULSE_SERVER": "${localEnv:PULSE_SERVER}",
+        "LIBGL_ALWAYS_SOFTWARE": "1", // Needed for software rendering of opengl
+        "GAZEBO_RESOURCE_PATH": "/usr/share/gazebo-11",
+        "TURTLEBOT3_MODEL": "burger"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+				"althack.ament-task-provider",
+				"betwo.b2-catkin-tools",
+				"DotJoshJohnson.xml",
+				"ms-azuretools.vscode-docker",
+				"ms-iot.vscode-ros",
+				"ms-python.python",
+				"ms-vscode.cpptools",
+				"redhat.vscode-yaml",
+				"smilerobotics.urdf",
+				"streetsidesoftware.code-spell-checker",
+				"twxs.cmake",
+				"yzhang.markdown-all-in-one",
+				"zachflower.uncrustify"
+            ]
+        }
+    },
+    "mounts": [
+        "source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind,consistency=cached",
+        "source=/dev/dri,target=/dev/dri,type=bind,consistency=cached",
+        "source=${localWorkspaceFolder}/../cache/humble/build,target=/workspaces/workspace/build,type=bind",
+        "source=${localWorkspaceFolder}/../cache/humble/install,target=/workspaces/workspace/install,type=bind",
+        "source=${localWorkspaceFolder}/../cache/humble/log,target=/workspaces/workspace/log,type=bind"
+    ],
+    "postCreateCommand": "rosdep update && rosdep install --from-paths src --ignore-src -y && sudo chown -R ros /workspaces/workspace/ && sudo chown -R ros /run/user && sudo chmod a+rwx /dev/snd/*"
+}
