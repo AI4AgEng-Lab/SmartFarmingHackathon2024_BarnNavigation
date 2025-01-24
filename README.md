@@ -1,4 +1,4 @@
-# SmartFarmingHackathon2024_BarnNavigation
+# Smart Farming Hackathon 2024 Barn Navigation
 
 The Smart Farming Hackathon 2024 was presented by the Innovation Agency RLP. For 2 days we were part of a dynamic community of companies, start-ups and research institutions and experienced a lot. Our use case: Navigation of robots in a poultry house! We would like to share what we developed during the hackathon here :)
 
