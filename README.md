@@ -19,7 +19,7 @@ First we developed a gazebo model for the poultry house. Then we used a TurtleBo
 
 In this case, we have chosen a solution without AI. However, for a more complex task with possibly more sensors, we consider an AI approach like fore instance rentforcemntlearning to be useful. In this case, the agend could first be trained in the simulation before it is then placed in a real poultry house. 
 
-## Getting Started withe Code
+## Getting Started with the Code
 
 ### Docker
 First select whether you work on Windows or Linux by commenting out the corresponding lines in the devcontainer file. 
