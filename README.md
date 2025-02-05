@@ -38,7 +38,7 @@ to start the simulation.
 
 We were a team of four members and one supervisor.
 
-Team Superviser: Jonas Boysen
+Team Supervisor: Jonas Boysen
 
 Team Members: 
 - Tim Lumpp
